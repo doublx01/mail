@@ -1,5 +1,5 @@
 {
-  "name": "forsaken-mail",
+  "name": "doublx-mail",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -17,9 +17,9 @@
   "author": "Hongcai Deng",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/denghongcai/forrsaken-mail/issues"
+    "url": "https://github.com/doublx01/mail/issues"
   },
-  "homepage": "https://github.com/denghongcai/forrsaken-mail#readme",
+  "homepage": "https://github.com/doublx01/mail#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "debug": "^2.2.0",
