@@ -5,7 +5,7 @@ WORKDIR /forsaken-mail
 
 RUN wget https://github.com/doublx01/mail/archive/master.tar.gz -q -O /tmp/mail-master.tar.gz \
     && tar zxf /tmp/mail-master.tar.gz -C /tmp \
-    && mv /tmp/mail-master/* /forsaken-mail \
+    && mv /tmp/mail-master/* /mail \
     && rm /tmp/mail-master.tar.gz \
     && npm install --production \
     && npm cache clean --force
