@@ -1,7 +1,7 @@
 FROM node:lts-alpine
-MAINTAINER Hongcai Deng <admin@dhchouse.com>
+MAINTAINER vipsky Deng <admin@vipsky.cc>
 
-WORKDIR /forsaken-mail
+WORKDIR /mail
 
 RUN wget https://github.com/doublx01/mail/archive/master.tar.gz -q -O /tmp/mail-master.tar.gz \
     && tar zxf /tmp/mail-master.tar.gz -C /tmp \
